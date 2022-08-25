@@ -32,7 +32,7 @@ a:hover{
 }
 html{
     height: 100%;
-    background-image:linear-gradient(to left right purple blue) ;
+    background-color:linear-gradient(to right, purple blue) ;
 }
 .avatar{
     width: 150px;
@@ -42,10 +42,60 @@ html{
     margin:0 auto;
     width: max-content;
     text-align: center;
+    height: 100%;;
 }
 .table th, td{
     padding: 5px;
     border: 1px solid black;
     background-color: rgb(50, 107, 27);
     text-align: center;
+}
+.gotex{
+    border: 1 px solid black;
+    width:100px;
+    height: 100px;
+    margin-top: 50px;
+    transition: transform 2s;
+}
+.gotex:hover{
+    background-color: rgb(99, 163, 51);
+    transform: rotate(180deg);
+}
+#table1 td:hover, th:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+.size_about{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline;
+}
+#size_Giorno{
+    height: 200px;
+    width: 200px;
+}
+.size_index{
+    height: 425px; 
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+.test{
+    width: 100%;;
+}
+#size_Diavolo{
+    height: 250px;
+    width: 250px;
+}
+#index_text{
+    width:250px;
+    display:inline-block;
+}
+body{
+    background-image: linear-gradient(to right, rgb(142, 28, 157), rgb(57, 28, 153));
+}
+.special_for_one_image{
+    height: 425px; 
+    width: 250px;
 }
